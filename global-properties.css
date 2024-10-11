@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+:root {
+    /* COLOR PALLETE */
+    --color-15: #fff;
+    --color-14: #eee;
+    --color-13: #ddd;
+    --color-12: #ccc;
+    --color-11: #bbb;
+    --color-10: #aaa;
+    --color-09: #999;
+    --color-08: #888;
+    --color-07: #777;
+    --color-06: #666;
+    --color-05: #555;
+    --color-04: #444;
+    --color-03: #333;
+    --color-02: #222;
+    --color-01: #111;
+    --color-00: #000;
+
+    /* FONTS */
+    --font-main: "Onest", sans-serif;
+    --font-section-title: "Oswald", sans-serif;
+    --font-title: "Nerko One", sans-serif;
+    --font-color-light: var(--color-15);
+    --font-color-dark: var(--color-00);
+}
