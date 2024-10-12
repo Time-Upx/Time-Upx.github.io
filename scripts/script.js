@@ -7,7 +7,7 @@ const companies = []
 
 for(let i = 0; i < 8; i++){
     companies.push({
-        img: "./assets/noImage.jpg",
+        img: "./../assets/noImage.jpg",
         name: "Company "+(i+1),
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus tortor arcu, et consectetur ante aliquet sed. Nam quam risus, varius quis lectus ac, congue tristique lacus. Fusce risus magna."
     })    
