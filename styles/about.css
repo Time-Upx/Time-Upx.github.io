@@ -11,13 +11,9 @@ html {
    background-attachment: fixed;
 }
    body {
-      width: 80%;
+      width: 100%;
       height: 100%;
       margin: 0 auto;
-
-      display: grid;
-      grid-template-rows: 7% 93% 5%;
-      grid-template-columns: 100%;
    }
    
 b {
@@ -33,8 +29,10 @@ b {
    align-items: center;
    justify-content: space-between;
 
-   padding-right: 2vh;
-   padding-left: 2vh;
+   height: 8vh;
+   padding: 0 4vh;
+   position: relative;
+   top: 0;
 
    background-color: var(--color-02);
    color: var(--font-color-light);
@@ -42,27 +40,43 @@ b {
    .header__pageTitle {
       font-size: 2rem;
    }
+   .header__navigation__list__item {
+      padding: 5px;
+      transition: 0.2s;
+      border: 1px solid transparent;
+      border-bottom: 1px solid var(--font-color-light);
+   }
+  .header__navigation__list__item:hover {
+      border: 1px solid var(--font-color-light)
+   }
+      .header__navigation__list__item__anchor {
+         text-decoration: none;
+      }
 
 .main {
    background-color: var(--color-14);
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding: 3vh;
-   overflow-y: scroll;
+   padding: 0 3vh;
 }
    .main__title {
       font-size: 2rem;
       text-decoration: underline;
-      margin-bottom: 2vh;
+      margin: 4vh;
+   }
+   .main__list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
    }
    .author {
-      width: 100%;
+      width: 40%;
       height: 15vh;
       border: 5px solid var(--color-13);
       border-radius: 100px;
-      margin-bottom: 20px;
       padding: 1.5vw 3vw;
+      margin-bottom: 4vh;
       display: flex;
       justify-content: start;
       align-items: center;
@@ -97,6 +111,10 @@ b {
 .footer {
    background-color: var(--color-02);
    color: var(--font-color-light);
+
+   height: 5vh;
+   position: relative;
+   bottom: 0;
 
    display: flex;
    justify-content: center;

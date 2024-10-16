@@ -40,9 +40,11 @@ companies.forEach(element => {
 
     var company_menu_item_anchor = document.createElement("a");
     company_menu_item_anchor.textContent = element.name;
+    company_menu_item_anchor.className = "main__searchBox__menu__list__item__anchor";
     company_menu_item_anchor.href = "#" + element.name;
 
     var company_menu_item = document.createElement("li");
+    company_menu_item.className = "main__searchBox__menu__list__item";
     company_menu_item.appendChild(company_menu_item_anchor);
 
     menu_list.appendChild(company_menu_item);

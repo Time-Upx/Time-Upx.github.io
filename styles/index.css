@@ -11,15 +11,10 @@ html {
     background-attachment: fixed;
 }
     body {
-        width: 80%;
-        height: 100%;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
-
-        display: grid;
-        grid-template-rows: 7% 93% 5%;
-        grid-template-columns: 100%;
     }
-
 
 * {
     box-sizing: border-box;
@@ -30,8 +25,10 @@ html {
     align-items: center;
     justify-content: space-between;
 
-    padding-right: 2vh;
-    padding-left: 2vh;
+    height: 8vh;
+    padding: 0 4vh;
+    position: relative;
+    top: 0;
 
     background-color: var(--color-02);
     color: var(--font-color-light);
@@ -39,31 +36,46 @@ html {
     .header__pageTitle {
         font-size: 2rem;
     }
+    .header__navigation__list__item {
+        padding: 5px;
+        transition: 0.2s;
+        border: 1px solid transparent;
+        border-bottom: 1px solid var(--font-color-light);
+    }
+    .header__navigation__list__item:hover {
+        border: 1px solid var(--font-color-light)
+    }
+        .header__navigation__list__item__anchor {
+            text-decoration: none;
+        }
 
 .main {
     background-color: var(--color-14);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3vh;
-    overflow-y: scroll;
+    padding: 0 10%;
 }
-    .main__searchBox--outerBorder {
-        border: 2px solid var(--color-13);
-        padding: 10px;
-        border-radius: 50px;
+    .main__searchBox {
         width: 50%;
+        margin: 20px;
+        transition: 0.3s;
     }
-    .main__searchBox--innerBorder {
-        border: none;
-        padding: 0 5px;
-        border-radius: 40px;
-        color: var(--font-color-light);
-        background-color: var(--color-10);
-        display: flex;
-        align-items: center;
-        flex-grow: 1;
-    }
+        .main__searchBox--outerBorder {
+            border: 2px solid var(--color-13);
+            padding: 10px;
+            border-radius: 50px;
+        }
+        .main__searchBox--innerBorder {
+            border: none;
+            padding: 0 5px;
+            border-radius: 40px;
+            color: var(--font-color-light);
+            background-color: var(--color-10);
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
         .main__searchBox__input {
             border: none;
             background: none;
@@ -84,9 +96,24 @@ html {
                 cursor: pointer;
             }
         .main__searchBox__menu {
-            display: none;
+            display: hidden;
+            background-color: var(--color-13);
+            height: 10vh;
+            overflow-y: auto;
         }
-
+        .main__searchBox__menu__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+        }
+            .main__searchBox__menu__list__item {
+                margin: 5px;
+            }
+                .main__searchBox__menu__list__item__anchor {
+                    text-decoration: none;
+                }
 
     .main__companiesContainer {
         display: flex;
@@ -98,7 +125,7 @@ html {
             width: 30%;
             padding: 10px;
             border-radius: 10px;
-            margin: 2vh;
+            margin-bottom: 4vh;
         }
             .company__card__img {
                 width: 100%;
@@ -119,10 +146,13 @@ html {
                 font-size: 0.8rem;
             }
 
-
 .footer {
     background-color: var(--color-02);
     color: var(--font-color-light);
+
+    height: 5vh;
+    position: relative;
+    bottom: 0;
 
     display: flex;
     justify-content: center;
