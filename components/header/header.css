@@ -1,0 +1,33 @@
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   height: 8vh;
+   padding: 0 4vh;
+   position: relative;
+   top: 0;
+
+   background-color: var(--color-02);
+   color: var(--font-color-light);
+}
+   .header__pageTitle {
+      font-size: 2rem;
+   }
+   .header__navigation__list {
+      display: flex;
+      align-items: center;
+   }
+      .header__navigation__list__item {
+         padding: 5px;
+         transition: 0.2s;
+         border: 1px solid transparent;
+         border-bottom: 1px solid var(--font-color-light);
+         margin-right: 1vw;
+      }
+      .header__navigation__list__item:hover {
+         border: 1px solid var(--font-color-light)
+      }
+         .header__navigation__list__item__anchor {
+            text-decoration: none;
+         }

@@ -5,27 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SolarBridge - Home</title>
-    
+
     <script src="https://kit.fontawesome.com/501538f1e1.js" crossorigin="anonymous"></script>
+    <script src="./../../scripts/import_component.js"></script>
+
+    <script src="./../../components/Component.js"></script>
+    <script src="./../../components/header/Header.js"></script>
+    <script src="./../../components/footer/Footer.js"></script>
     
-    <link rel="stylesheet" href="./../styles/reset.css">
-    <link rel="stylesheet" href="./../styles/global-properties.css">
-    <link rel="stylesheet" href="./../styles/index.css">
-    
+    <link rel="stylesheet" href="./../../styles/reset.css">
+    <link rel="stylesheet" href="./../../styles/global-properties.css">
+    <link rel="stylesheet" href="./../../styles/common.css">
+
+    <link rel="stylesheet" href="./../../components/header/header.css">
+    <link rel="stylesheet" href="./../../components/footer/footer.css">
+
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__pageTitle">SolarBridge</h1>
-        <nav class="header__navigation">
-            <ul class="header__navigation__list">
-                <li class="header__navigation__list__item">
-                    <a class="header__navigation__list__item__anchor" href="about.html">Sobre</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
     <main class="main">
         <div class="main__searchBox">
             <div class="main__searchBox--outerBorder">
@@ -43,12 +41,16 @@
         </div>
         <div id="companies_container" class="main__companiesContainer"></div>
     </main>
-
-    <footer class="footer">
-        <p>2024 ©</p>
-    </footer>
 </body>
 
-<script src="./../scripts/script.js"></script>
+<script> import_component(
+    new Header("./../../components/header/header.html", "body", "start", "./../about/about.html")
+); </script>
+<script> import_component(
+    new Footer("./../../components/footer/footer.html", "body", "end")
+); </script>
+
+<script src="./../../scripts/company_card_generator.js"></script>
+<script src="./../../scripts/index.js"></script>
 
 </html>
