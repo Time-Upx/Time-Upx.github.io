@@ -1,0 +1,70 @@
+{
+    "name": "Grupo Automatize",
+    "logo": "/assets/AutomatizeSolucoes.png",
+    "logo_width": 100,
+    "local_of_operation": "Brasil",
+    "experience_years": 10,
+    "average_score": 4.7,
+    "description_s": "Grupo Automatize Energia Solar oferece soluções completas em energia solar, garantindo eficiência e sustentabilidade para residências e empresas em todo o Brasil com tecnologia de ponta e serviços especializados.",
+    "description_b": "O Grupo Automatize Energia Solar é referência no fornecimento de soluções integradas de energia solar no Brasil. A empresa se dedica a oferecer projetos personalizados que garantem eficiência energética, sustentabilidade e economia para residências, comércios e indústrias. Com uma equipe altamente qualificada, a Automatize cuida de todo o processo, desde a análise inicial e instalação até a manutenção dos sistemas solares. Além disso, utiliza as mais avançadas tecnologias do mercado para assegurar a máxima performance e durabilidade dos sistemas fotovoltaicos. Comprometida com a excelência, a Automatize Energia Solar transforma luz solar em economia e benefícios ambientais, promovendo um futuro mais verde.",
+    "adress": {
+        "state": "SP",
+        "city": "Santa Bárbara d'Oeste",
+        "street": "Avenida Interdistrital Comendador Emílio Romi",
+        "number": 609,
+        "cep": "13456-120"
+    },
+    "contact": {
+        "email": "vendas@automatize.eng.br",
+        "phone": "(19) 3454-6386",
+        "whatsapp": "(19) 3454-6386"
+    },
+    "social_medias": {
+        "instagram": "https://www.instagram.com/auomatizeeng/",
+        "linkedin": "https://www.linkedin.com/company/automatize.solucoes/",
+        "facebook": "https://www.facebook.com/automatize.eng.br/"
+    },
+    "services": [
+        {
+            "client": "Neto",
+            "img": "/assets/Casal.png",
+            "satisfaction": {
+                "comment": "Excelente atendimento e produtos de qualidade! Faço compras pela empresa JPHE Caldeiraria, sempre somos bem atendidos, grande gama de produtos a pronta entrega e os prazos sempre são respeitados!",
+                "score": 5
+            }
+        },
+        {
+            "client": "Gilson Baldo",
+            "img": "/assets/HomemNormal.png",
+            "satisfaction": {
+                "comment": "É uma excelente empresa. Na cidade quando pensa em automação é aqui. Autorizada Weg bons preços recomendo.",
+                "score": 4
+            }
+        },
+        {
+            "client": "Jéssica Souza",
+            "img": "/assets/MulherNormal.png",
+            "satisfaction": {
+                "comment": "Maravilhoso. Equipe super atenciosa, prestativa e rápida. Os produtos são excelentes.",
+                "score": 5
+            }
+        }
+    ],
+    "packages": [
+        {
+            "name": "Pacote Básico",
+            "price": "5.000",
+            "description": "Instalação de sistema solar residencial com até 10 painéis, incluindo suporte técnico básico e garantia de 2 anos."
+        },
+        {
+            "name": "Pacote Avançado",
+            "price": "12.000",
+            "description": "Sistema solar para residências e pequenas empresas, com até 25 painéis e suporte técnico completo por 5 anos."
+        },
+        {
+            "name": "Pacote Premium",
+            "price": "25.000",
+            "description": "Solução completa para grandes empresas, com até 50 painéis, monitoramento remoto e garantia de 10 anos."
+        }
+    ]
+}

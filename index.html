@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarBridge - Home</title>
+
+    <script src="https://kit.fontawesome.com/501538f1e1.js" crossorigin="anonymous"></script>
+    <script src="/scripts/import_component.js"></script>
+
+    <script src="/components/Component.js"></script>
+    <script src="/components/header/Header.js"></script>
+    <script src="/components/footer/Footer.js"></script>
+
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/global-properties.css">
+    <link rel="stylesheet" href="/styles/common.css">
+
+    <link rel="stylesheet" href="/components/header/header.css">
+    <link rel="stylesheet" href="/components/footer/footer.css">
+
+    <link rel="stylesheet" href="/styles/index.css">
+
+    <link rel="icon" href="/assets/SolarBridge-Icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main class="main">
+        <div class="main__searchBox">
+            <div class="main__searchBox--outerBorder">
+                <div class="main__searchBox--innerBorder">
+                    <span id="menu_button" class="main__searchBox__icon fa-solid fa-bars"></span>
+                    <input id="search_input" class="main__searchBox__input" type="text" />
+                    <span class="main__searchBox__icon fa-solid fa-search"></span>
+                </div>
+            </div>
+            <menu id="search_menu" class="main__searchBox__menu">
+                <ul id="search_menu_list" class="main__searchBox__menu__list">
+
+                </ul>
+            </menu>
+        </div>
+        <div id="companies_container" class="main__companiesContainer">
+            <p id="no_results_message" class="main__noCompanyFound">Nenhuma empresa encontrada</p>
+        </div>
+    </main>
+</body>
+
+<script> import_component(
+        new Header("body", "start", "/about.html")
+    ); </script>
+<script> import_component(
+        new Footer("body", "end")
+    ); </script>
+
+<script type="module" src="/scripts/company_card_generator.js"></script>
+<script src="/scripts/index.js"></script>
+
+</html>

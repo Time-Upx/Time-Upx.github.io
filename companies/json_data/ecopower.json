@@ -1,0 +1,70 @@
+{
+    "name": "Eco Power",
+    "logo": "/assets/ecopower_logo.png",
+    "logo_width": 60,
+    "local_of_operation": "26 estados e no Distrito Federal",
+    "experience_years": 8,
+    "average_score": 4.6,
+    "description_s": "EcoPower Energia Solar é uma empresa inovadora que fornece soluções de energia sustentável, promovendo economia e eficiência com tecnologias solares de ponta para clientes em todo o Brasil.",
+    "description_b": "EcoPower Energia Solar se destaca como uma das líderes no setor de energia sustentável no Brasil. Especializada em fornecer soluções completas de energia solar, a empresa oferece desde a consultoria inicial até a instalação e manutenção de sistemas solares. Com um compromisso sólido com a sustentabilidade, a EcoPower ajuda clientes a reduzir seus custos de energia e sua pegada de carbono, utilizando as mais recentes tecnologias e práticas do mercado. Com uma equipe experiente e dedicada, a EcoPower garante a máxima eficiência e confiabilidade em cada projeto, atendendo tanto residências quanto empresas e indústrias em todo o país.",
+    "adress": {
+        "state": "SP",
+        "city": "Laranjal Paulista",
+        "street": "Avenida Prefeito Hermelindo Pillon",
+        "number": "450 Sala E",
+        "cep": "18506-020"
+    },
+    "contact": {
+        "email": "suport@ecopower.com.br",
+        "phone": "(15) 99757-7893",
+        "whatsapp": "(15) 99757-7893"
+    },
+    "social_medias": {
+        "instagram": "https://www.instagram.com/ecopower/",
+        "linkedin": "https://www.linkedin.com/company/ecopowerenergia/",
+        "facebook": "https://www.facebook.com/ecopowerenergia/"
+    },
+    "services": [
+        {
+            "client": "José Batista da Costa",
+            "img": "/assets/IdosoBone.png",
+            "satisfaction": {
+                "comment": "Estou satisfeito com a redução do preço que pago. Antes eram cerca de R$ 230 reais, agora são apenas R$ 90 a cada dois meses, quase a taxa mínima.",
+                "score": 10
+            }
+        },
+        {
+            "client": "Edimar Aparecido Ricci",
+            "img": "/assets/MusculosoCareca.png",
+            "satisfaction": {
+                "comment": "O atendimento foi maravilhoso, não tive nenhum problema, questão de materiais assim, tudo de excelente qualidade.",
+                "score": 10
+            }
+        },
+        {
+            "client": "Pecuária BR",
+            "img": "/assets/VelhoAgro.png",
+            "satisfaction": {
+                "comment": "Esse é um trabalho árduo, um trabalho que demandou muita vontade, são mais de 3400 módulos instalados, então não é qualquer número.",
+                "score": 8.7
+            }
+        }
+    ],
+    "packages": [
+        {
+            "name": "Pacote Econômico",
+            "price": "4.500",
+            "description": "Sistema solar básico para residências, com até 8 painéis e suporte técnico por 1 ano."
+        },
+        {
+            "name": "Pacote Sustentável",
+            "price": "10.000",
+            "description": "Solução intermediária para residências e comércios, com até 20 painéis e garantia de 3 anos."
+        },
+        {
+            "name": "Pacote Corporativo",
+            "price": "22.000",
+            "description": "Sistema solar avançado para empresas, com até 45 painéis, monitoramento e suporte técnico por 5 anos."
+        }
+    ]
+}

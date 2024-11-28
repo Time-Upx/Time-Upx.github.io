@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarBridge - About</title>
+
+    <script src="https://kit.fontawesome.com/501538f1e1.js" crossorigin="anonymous"></script>
+
+    <script src="/scripts/import_component.js"></script>
+
+    <script src="/components/Component.js"></script>
+    <script src="/components/header/Header.js"></script>
+    <script src="/components/footer/Footer.js"></script>
+
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/global-properties.css">
+    <link rel="stylesheet" href="/styles/common.css">
+
+    <link rel="stylesheet" href="/components/header/header.css">
+    <link rel="stylesheet" href="/components/footer/footer.css">
+
+    <link rel="stylesheet" href="/styles/about.css">
+
+    <link rel="icon" href="/assets/SolarBridge-Icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main class="main">
+        <h3 class="main__title">Autores</h3>
+        <ul class="main__list">
+
+        </ul>
+    </main>
+</body>
+
+<script> import_component(
+        new Header("body", "start", "./index.html")
+    ); </script>
+<script> import_component(
+        new Footer("body", "end")
+    ); </script>
+
+<script src="/scripts/author_card_generator.js"></script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+</html>

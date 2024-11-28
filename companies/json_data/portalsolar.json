@@ -1,0 +1,70 @@
+{
+    "name": "Portal Solar",
+    "logo": "/assets/PortalSolar.png",
+    "logo_width": 100,
+    "local_of_operation": "Brasil",
+    "experience_years": 15,
+    "average_score": 4.8,
+    "description_s": "Portal Solar é a marca líder em energia solar do Brasil, oferecendo soluções fotovoltaicas eficientes e sustentáveis para residências e empresas, com atendimento de qualidade.",
+    "description_b": "Fundado em 2014, o Portal Solar é a marca líder em energia solar do Brasil. A empresa começou como um portal de conteúdo e cresceu rapidamente, se tornando uma \"one-stop shop\" para soluções de energia solar. Com mais de 20 mil sistemas solares instalados e uma rede de franquias espalhada por todo o país, o Portal Solar oferece projetos personalizados, garantindo eficiência energética e economia para seus clientes. A empresa se destaca pelo atendimento de qualidade e pela democratização do acesso à energia solar fotovoltaica no Brasil.",
+    "adress": {
+        "state": "SP",
+        "city": "São Paulo",
+        "street": "Avenida Roque Petroni",
+        "number": 999,
+        "cep": "04707-910"
+    },
+    "contact": {
+        "email": "contato@portalsolar.com.br",
+        "phone": "(11) 4000-1948",
+        "whatsapp": "(11) 4000-1948"
+    },
+    "social_medias": {
+        "instagram": "https://www.instagram.com/portal_solar/",
+        "linkedin": "https://www.linkedin.com/company/portal-solar/",
+        "facebook": "https://www.facebook.com/PortalSolarBrasil/"
+    },
+    "services": [
+        {
+            "client": "Rodrigo Castelaro",
+            "img": "/assets/Homem2.png",
+            "satisfaction": {
+                "comment": "Ótima experiência. Fomos atendidos pelo Fábio que é um dos profissionais mais solícitos que conheci. Antes de contratar fizemos uma série de perguntas comparamos com outras empresas e após meses contratamos a Portal Solar. Os prazos foram todos cumpridos, o preparo da equipe que fez a instalação e o primor em deixar tudo bem organizado é algo fora do normal.",
+                "score": 10
+            }
+        },
+        {
+            "client": "Bruno Miquez",
+            "img": "/assets/Homem3.png",
+            "satisfaction": {
+                "comment": "Melhor experiência que tive em Contratação de Sistema Fotovoltaico, fui atendido pelo Fabio que foi a pessoa mais solicita que já conheci em uma empresa, tirou todas minhas dúvidas e me ajudou mesmo aos Sábados e Domingos. Tive a melhor experiência pré-venda e pós-venda por conta dele e da sua equipe dentro da Portal Solar. Indico a Empresa e o Fabio a todos que queiram ter uma experiência realmente VIP para a aquisição do seu sistema fotovoltaico.",
+                "score": 9.4
+            }
+        },
+        {
+            "client": "Joyce Paula",
+            "img": "/assets/Mulher2.png",
+            "satisfaction": {
+                "comment": "Foi tudo muito ráido e bem feito.",
+                "score": 10
+            }
+        }
+    ],
+    "packages": [
+        {
+            "name": "Pacote Essencial",
+            "price": "6.000",
+            "description": "Sistema solar básico para residências, com até 12 painéis e suporte técnico por 2 anos."
+        },
+        {
+            "name": "Pacote Completo",
+            "price": "15.000",
+            "description": "Solução intermediária para residências e comércios, com até 30 painéis e garantia de 5 anos."
+        },
+        {
+            "name": "Pacote Empresarial",
+            "price": "30.000",
+            "description": "Sistema solar avançado para grandes empresas, com até 60 painéis, monitoramento remoto e suporte por 10 anos."
+        }
+    ]
+}

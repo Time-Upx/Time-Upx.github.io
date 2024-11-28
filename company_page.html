@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Apresentação da Empresa</title>
+
+   <script src="https://kit.fontawesome.com/501538f1e1.js" crossorigin="anonymous"></script>
+   <script src="/scripts/import_component.js"></script>
+
+   <script src="/components/Component.js"></script>
+   <script src="/components/header/Header.js"></script>
+   <script src="/components/footer/Footer.js"></script>
+
+   <link rel="stylesheet" href="/styles/reset.css">
+   <link rel="stylesheet" href="/styles/global-properties.css">
+   <link rel="stylesheet" href="/styles/common.css">
+
+   <link rel="stylesheet" href="/components/header/header.css">
+   <link rel="stylesheet" href="/components/footer/footer.css">
+
+   <link rel="stylesheet" href="styles/company_page.css">
+
+   <link rel="icon" href="/assets/SolarBridge-Icon.ico" type="image/x-icon">
+</head>
+
+<body>
+   <main class="main">
+      <h2 class="company_name">Company Title</h2>
+      <section class="introduction">
+         <img class="company_logo" src="https://via.placeholder.com/300" alt="company logo">
+         <div class="company_description_container">
+            <p class="company_description">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo, massa eget mollis tincidunt,
+               nulla dolor condimentum ligula, quis pulvinar est est vitae sem. In tortor augue, blandit vitae sem
+               vitae, semper ultricies velit. Nam arcu quam, viverra a lacinia malesuada, venenatis at purus. Proin ut
+               dictum nisl, in tincidunt ipsum. Pellentesque augue arcu, accumsan ac purus id, scelerisque convallis ex.
+               Aenean non nulla feugiat, elementum magna ut, ultricies ligula. Phasellus dapibus lacinia risus, at
+               mattis ipsum pharetra ullamcorper. Fusce id varius ipsum. Vivamus leo augue, luctus et consequat ut,
+               rhoncus et risus. Class aptent taciti sociosqu ad litora torquent.
+            </p>
+         </div>
+      </section>
+      <hr>
+      <section class="information">
+         <h3 class="section_title">Informações</h3>
+         <ul>
+            <li class="info"><b>Endereço:</b>
+               <p id="adress">texto</p>
+            </li>
+            <li class="info"><b>Local de Operação:</b>
+               <p id="local_of_operation">texto</p>
+            </li>
+            <li class="info"><b>Tempo de Experiência:</b>
+               <p id="experience_years">texto</p>
+            </li>
+            <li class="info"><b>Avaliação Média:</b>
+               <p id="average_score">texto</p>
+            </li>
+         </ul>
+      </section>
+      <hr>
+      <section class="packages">
+         <h3 class="section_title">Pacotes</h3>
+         <ul id="packages_container"></ul>
+      </section>
+      <hr>
+      <section class="last_services">
+         <h3 class="section_title">Avaliações</h3>
+         <ul id="services_container"></ul>
+      </section>
+      <hr>
+      <section class="contact">
+         <h3 class="section_title">Fale Conosco</h3>
+         <ul>
+            <li class="info"> <b>Email:</b>
+               <p id="contact_email">texto</p>
+            </li>
+            <li class="info"> <b>Whatsapp:</b>
+               <p id="contact_zap">texto</p>
+            </li>
+            <li class="info"> <b>Telefone:</b>
+               <p id="contact_phone">texto</p>
+            </li>
+         </ul>
+      </section>
+      <hr>
+      <section class="social_medias">
+         <h3 class="section_title">Nos acompanhe nas redes sociais</h3>
+         <ul class="social_medias_list">
+            <li>
+               <a id="facebook_link" class="social_media_link" href="" target="_blank">
+                  <span class="fa-brands fa-facebook"></span>
+               </a>
+            </li>
+            <li>
+               <a id="linkedin_link" class="social_media_link" href="" target="_blank">
+                  <span class="fa-brands fa-linkedin"></span>
+               </a>
+            </li>
+            <li>
+               <a id="instagram_link" class="social_media_link" href="" target="_blank">
+                  <span class="fa-brands fa-instagram"></span>
+               </a>
+            </li>
+         </ul>
+      </section>
+   </main>
+</body>
+
+<script> import_component(
+      new Header("body", "start", "./../index.html", "./../about.html")
+   ); </script>
+<script> import_component(
+      new Footer("body", "end")
+   ); </script>
+
+<script type="module" src="/scripts/company_page.js"></script>
+
+</html>
